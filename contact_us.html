@@ -398,13 +398,14 @@
               color: #333;
               font-size: 14px;
             "
-            >Phone Number</label
-          >
+          >Phone Number</label>
           <input
             type="tel"
             id="phone"
             name="phone"
             required
+            maxlength="10"  
+            pattern="\d{10}" 
             style="
               width: 100%;
               padding: 10px;
@@ -414,6 +415,7 @@
             "
           />
         </div>
+        
 
         <div class="form-group" style="margin-bottom: 15px">
           <label
